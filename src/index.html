@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>简历 | 黄源星 - Michael</title>
+  <title>简历 | 黄源星 - Chale</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/button.css">
   <link rel="stylesheet" href="./css/liuguan.css">
@@ -33,7 +33,7 @@
           </h1>
         </div>
         <div class="job">
-          <h2>计算机视觉/嵌入式Linux</h2>
+          <h2>嵌入式Linux/AI</h2>
           <div class="avartor">
             <img src="./img/resume/card-avartor20220713.png" alt="">
           </div>
@@ -42,17 +42,17 @@
 
       <div class="clearfix">
         <section class="info">
-          <h2>男 / 2001.12 广东</h2>
+          <h2>男 / 2001.12 广东茂名</h2>
           <h3>本科 /  
           	<a target="_blank"
               href="https://baike.baidu.com/item/%E5%8D%8E%E5%8D%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6/134597">
               华南理工大学
             </a> 
             <span>信息工程&nbsp;&nbsp;</span>
-            <span>GPA:3.53/4.0 &nbsp;&nbsp;</span>
+            <span>GPA:3.64/4.0 &nbsp;&nbsp;</span>
 						<span>加权平均:85.67</span>
           	<p>
-						<span>CET-6：526</span>
+						<span>CET-4:547 &nbsp;&nbsp;CET-6：526</span>
           	</p>
 	    </h3>
           
@@ -78,12 +78,6 @@
                 <i class="iconfont icon-github"></i>
               </a>
             </li>
-            <!--<li>
-              <a href="tel:17687541524">
-                <span>17687541524</span>
-                <i class="iconfont icon-phone_circle_fill"></i>
-              </a>
-            </li>-->
             <li>
               <a href="mailto:yxHwang1636@outlook.com">
                 <span>yxHwang1636@outlook.com</span>
@@ -433,20 +427,55 @@
           
           </head>
         </section>
-      
-      </div>
 
-      <div class="content-right">
-        <!-- 其他项目 -->
         <section id="works">
           <header class="section-header">
             <span class="section-title-l"></span>
             <h2 class="section-title"> 项目经历 </h2>
             <span class="section-title-r"></span>
           </header>
-          
+
+
           <main class="section-body">
-          	
+            <!--main 里面添加新的项目-->
+            <div class="works-item">
+              <header class="item-hd clearfix">
+                <h3 class="item-name">智能环境监测小车</h3>
+              </header>
+              <div class="item item-qr clearfix">
+                <div class="item-qr-code">
+                  <!--<img src="img/resume/dasabi.png" alt="">-->
+                  <a class="qr-link" target="_blank" href="https://github.com/panser1636/Gating_system">开源链接</a>
+                  <!--<a class="qr-link" target="_blank" href="http://siliwu.sakihomura.top/">预览链接</a>-->
+                </div>
+              </div>
+              <div class="item">
+                <header class="item-hd clearfix">
+                </header>
+                <div class="item-hd clearfix">
+                  <p class="section-content">
+                    <i class="iconfont icon-dot"></i>
+                    项目描述：采集环境参数、遥控和超控以及数据云端同步和可视化的智能小车
+                  </p>
+                  <p class="section-content">
+                    <i class="iconfont icon-dot"></i>
+                    主要工作：负责GPS模块，小车可以根据GPS导航信息沿着设计的路线自动行驶，使用ONENET平台云端以百度地图实时显示小车的位置，并且监测到火情时地图实时标注灾情位置；温湿度、噪声等传感器的数据采集以及云端共享实时采集数据，并且在云端可以查看所有的历史数据，有良好的可视化。
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </main>
+        </section>
+
+      </div>
+
+
+<!--右半页-->
+      <div class="content-right">
+	<section id="works">
+      <main class="section-body">
+        
             <div class="works-item">
               <header class="item-hd clearfix">
                 <h3 class="item-name">基于FPGA的多功能门控系统</h3>
@@ -482,9 +511,7 @@
               </header>
               <div class="item item-qr clearfix">
                 <div class="item-qr-code">
-                  <img src="img/resume/wecy.jpg" alt="">
                   <a class="qr-link" target="_blank" href="https://github.com/panser1636/IntelligentStudyRoom">开源链接</a>
-                  <a class="qr-link" target="_blank" href="https://we.cqupt.edu.cn/">官网链接</a>
                 </div>
               </div>
               <div class="item">
@@ -503,15 +530,15 @@
                    使用当天<em>扫码签到和签退</em>，
                   </p>
                   <p class="section-content">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.硬件端通过人体红外监测人是否在座位，连续1h监测不到人则自动释放座位，达到<em>防占座</em>功能；
-                  </p>
-                  <p class="section-content">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.提供<em>监督举报</em>通道，用户可举报违规用户；硬件端<em>监测自习室温湿度</em>等信息传送到
-                    小程序进行可视化展示
+                    小程序进行可视化展示；并且可通过小程序<em>超控</em>自习室的灯光、窗帘;
+                  </p>
+		  <p class="section-content">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.用户可通过客服中心在线与管理员联系以及反馈信息;
                   </p>
                   <p class="section-content">
                     <i class="iconfont icon-dot"></i>
-                    主要工作：独立完成整个小程序的云开发
+                    主要工作：独立完成整个小程序的云开发以及温度、光照信息的采集和小程序超控
                   </p>
                 </div>
               </div>
